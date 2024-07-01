@@ -1,0 +1,48 @@
+.intro{
+    width: 100%;
+    min-height: 100vh;
+    background: bisque;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.personal h1{
+    font-size: 62px;
+    line-height: 1.2;
+  }
+  
+  .img-box img{
+    border-radius: 50%;
+    width: 550px;
+  }
+  
+  .personal p {
+    font-size: 62px;
+    margin: 25px 0 30px;
+  }
+  .personal{
+    max-width: 800px;
+  }
+
+  .form-control-dark {
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+  
+  .container d-flex justify-content-center py-3 nav nav-pills{
+    background-color: black;
+  }
+  
