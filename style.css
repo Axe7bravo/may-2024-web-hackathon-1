@@ -1,11 +1,5 @@
-.intro{
-    width: 100%;
-    min-height: 100vh;
-    background: bisque;
-    display: flex;
-    align-items: center;
-    gap: 7em;
-    padding: 30px 12% 0;
+html, body{
+  scroll-behavior: smooth;
 }
 
 .personal h1{
@@ -41,5 +35,10 @@
   .dropdown-toggle:not(:focus) {
     outline: 0;
   }
+
+
+
+
+  
   
 
